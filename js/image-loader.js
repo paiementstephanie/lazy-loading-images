@@ -1,4 +1,4 @@
-window.addEventListener('load', fucntion (e) {
+window.addEventListener('load', function (e) {
 	var imgs=document.querySelectorAll('.non-critical-img');
 
 	[].forEach.call(imgs, function (img) {
@@ -9,3 +9,4 @@ window.addEventListener('load', fucntion (e) {
 		img.removeAttribute('hidden');
 	});
 });
+
